@@ -494,9 +494,9 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 **MSS**
 
 1.  User requests to add an applicant with their name and email.
-2.  LinkedOut adds the applicant and displays the updated applicant list.
-3.  User requests to add an application to the applicant, providing the job description and optionally the application status.
-4.  LinkedOut adds the application and displays the applicant's updated details.
+1.  LinkedOut adds the applicant and displays the updated applicant list.
+1.  User requests to add an application to the applicant, providing the job description and optionally the application status.
+1.  LinkedOut adds the application and displays the applicant's updated details.
 
     Use case ends.
 
@@ -553,9 +553,9 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 **MSS**
 
 1.  User requests to view a specific applicant.
-2.  LinkedOut displays the applicant's details and application.
-3.  User requests to update the application's status.
-4.  LinkedOut updates the status and displays the applicant's updated details.
+1.  LinkedOut displays the applicant's details and application.
+1.  User requests to update the application's status.
+1.  LinkedOut updates the status and displays the applicant's updated details.
 
     Use case ends.
 
@@ -600,7 +600,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 **MSS**
 
 1.  User requests to delete a specific applicant.
-2.  LinkedOut deletes the applicant and their application, if one exists, and displays the updated applicant list.
+1.  LinkedOut deletes the applicant and their application, if one exists, and displays the updated applicant list.
 
     Use case ends.
 
@@ -623,11 +623,11 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 ### Non-Functional Requirements
 
 1.  Should work on any _mainstream OS_ as long as it has Java `25` or above installed.
-2.  Should be able to hold up to 1000 applicants and applications without noticeable sluggishness in performance for typical usage.
-3.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
-4.  A new user should be able to add a new applicant or application immediately upon app launch.
-5.  Every command should finish within 2s (for up to 1000 applicants/applications).
-6.  Should not use more than 2 GB of RAM.
+1.  Should be able to hold up to 1000 applicants and applications without noticeable sluggishness in performance for typical usage.
+1.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
+1.  A new user should be able to add a new applicant or application immediately upon app launch.
+1.  Every command should finish within 2s (for up to 1000 applicants/applications).
+1.  Should not use more than 2 GB of RAM.
 
 ### Glossary
 
